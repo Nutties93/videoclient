@@ -13,7 +13,7 @@ let setheaders = new Headers({
 });
 
 // (optional) add server code here
-var SERVER_BASE_URL = 'https://1fd8a7c3.ngrok.io';
+var SERVER_BASE_URL = 'https://herokudemoserver.herokuapp.com';
 fetch(SERVER_BASE_URL + '/session').then((response) => {
   return response.json();
 }).then(function(res) {
