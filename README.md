@@ -20,7 +20,7 @@ We can think of the above as a "CREATE VIDEO SESSION" page. And of course, runni
 
 # App2.js
 
-An example where 2 users can connect to a same sessionId. Simply change this to app.js instead and rename the original app.js file to something else. Update the apiKey, token and sessionId according. 
+An example where 2 users can connect to a same sessionId. Simply change this to app.js instead and rename the original app.js file to something else. Update the apiKey, token and sessionId accordingly. 
 
 
 
