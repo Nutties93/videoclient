@@ -8,14 +8,14 @@ npm install --save
 
 Create a project in TokBox. Copy the apiKey, apiSecret.
 
-# For convenience sake, I have uploaded the backend to heroku. No more ngrok.
+For convenience sake, I have uploaded the backend to heroku. No more ngrok.
 
-# Open index.html in any web browser. 
+Open index.html in any web browser. 
 --> The staic html page calls openTok APIs and does the following calls synchronously.
-
+```
 1) Creates a session and grabs the session Id.
 2) Creates a token using session Id. (role: moderator, expireTime: 1hr)
-
+```
 We can think of the above as a "CREATE VIDEO SESSION" page. And of course, running this page again, creates another new sessionId.
 
 # App2.js
